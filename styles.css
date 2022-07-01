@@ -52,7 +52,7 @@ nav a {
 header{
   display: flex;
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   /* padding: 20px; */
 }
 .logo{
@@ -84,7 +84,12 @@ header{
   top: 7em;
   text-align: center;
 }
-
+.content{
+  width: 100%;
+  height: auto;
+  margin: 145px 0 0 0;
+  padding: 0 10px 0 10px;
+}
 .container{
   position: relative;
   top: 9em;
