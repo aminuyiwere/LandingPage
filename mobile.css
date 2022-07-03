@@ -225,6 +225,7 @@ header{
       }
       #nav-bar a{
         color: #000;
+        font-size: 1rem;
         text-decoration: none;
       }
       
