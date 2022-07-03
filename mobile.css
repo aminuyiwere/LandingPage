@@ -215,8 +215,8 @@ header{
       #nav-bar ul{
         width: 40vw;
         display: flex;
-        justify-content: space-between;
-        gap: 2em;
+        justify-content: space-around;
+        gap: 1em;
         padding-top: 1em;
       }
       #nav-bar ul li{
