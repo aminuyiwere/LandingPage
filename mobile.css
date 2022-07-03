@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+html, body{
+      background-color: #eee;
+      font-family: 'Lato', sans-serif;
+      position: relative;     
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: #eee;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    padding: 20px 20px 0px 20px;
+    z-index: 10;
+    justify-content: space-between;
+  }
+
+  .logo{
+    /* width:40vw; */
+  
+  }
+  .logo img{
+  
+    /* width: 30vw; */
+    height: 1.5em;
+    
+  }
+
+  #nav-bar ul{
+    display: flex;
+    gap: .5em;
+    
+  
+    
+    /* padding-top: 1em; */
+  }
+  #nav-bar ul li{
+    flex-direction: row;
+    /* align-items: flex-end; */
+    list-style: none;
+    
+  }
+  #nav-bar a{
+    color: #000;
+    text-decoration: none;
+  }
+  .form-div{
+    position: relative;
+    top: 7em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .form-div h1{
+    font-size: 1.5em !important;
+  }
+  
+
+  .content{
+    position: relative;
+    /* width: 100%; */
+    
+    
+  }
+  
+  #email{
+    margin-top: 1.5em;
+    /* width: 300px; */
+    height: 2.5em;
+    text-align: center;
+  }
+  #submit{
+    width: 120px;
+    height: 2.5em;
+    margin-top: 1.5em;
+    background-color: yellow;
+    border-width: 0;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  #submit:hover{
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  .container{
+    /* max-width: 1000px; */
+      /* width: 100%; */
+      /* margin: 0 auto; */
+      margin: auto 2.5em;
+      position: relative;
+      top: 9em;
+      z-index: 1;
+  
+  }
+  #features{
+   width: 80vw;
+  }
+  #features ul{
+    list-style: none;
+  
+  }
+  #features li{
+    margin-top: 1em;
+  }
+  #works{
+   /* text-align: center; */
+    
+    margin-top: 5em;
+  }
+  #works iframe{
+      max-width: 80vw;
+      width: 100%;
+  }
+  #pricing{
+    margin-top: 5em;
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    
+  }
+  .pricing-box{
+    width: 80vw;
+    height: auto;
+    border:1px solid black;
+    
+  }
+  .pricing-box h1{
+    background-color: #ddd;
+    height: 2em;
+    font-size: 2em;
+  }
+  .pricing-box h2{
+    margin: 1em 0;
+  }
+  .pricing-box ol{
+    list-style: none;
+    
+  }
+  .pricing-box button{
+    width: 100px;
+    height: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: rgb(254, 254, 5);
+    border-style: none;
+    font-weight: 400;
+  }
+  .pricing-box button:hover{
+    cursor: pointer;
+    background-color: orange;
+  }
+  footer{
+    background-color: #ddd;
+    width: 100vw;
+    margin-top: 10em;
+    position: relative;
+    top: 5em;
+    
+  
+  }
+  footer ul{
+    display: flex;
+    gap: 2em;
+    padding:.5em 1em;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  footer li{
+    list-style: none;
+  
+  }
+  footer a{
+    text-decoration: none;
+    color: #000;
+  }
+  footer p{
+    text-align: center;
+    padding: .5em 1em;
+  }
+  
+
+  @media (min-width:750px) {
+    header{
+        background-color: #eee;
+        width: 100vw;
+        display: flex;
+        position: fixed;
+    
+        top: 0px;
+        padding: 20px 20px 0px 20px;
+        z-index: 10;
+      }
+      .logo{
+        width:60vw;
+        margin-left: 3em;
+      
+      }
+      .logo img{
+      
+        width: 30vw;
+        height: 3em;
+        
+      }
+      #nav-bar ul{
+        width: 40vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 2em;
+        padding-top: 1em;
+      }
+      #nav-bar ul li{
+        flex-direction: row;
+        list-style: none;
+      }
+      #nav-bar a{
+        color: #000;
+        text-decoration: none;
+      }
+      
+      .form-div{
+        position: relative;
+        top: 7em;
+        text-align: center;
+      }
+      
+      .content{
+        position: relative;
+        width: 100%;
+        
+        
+      }
+      .container{
+        position: relative;
+        top: 9em;
+        z-index: 1;
+      
+      }
+      #email{
+        margin-top: 1.5em;
+        width: 300px;
+        height: 2.5em;
+        text-align: center;
+      }
+      #submit{
+        width: 120px;
+        height: 2.5em;
+        margin-top: 1.5em;
+        background-color: yellow;
+        border-width: 0;
+        font-weight: 800;
+        border-radius: 10px;
+      }
+      #submit:hover{
+        background-color: orange;
+        cursor: pointer;
+      }
+      
+      .container{
+        max-width: 1000px;
+          width: 100%;
+          margin: 0 auto;
+      
+      }
+      #features{
+        width: 80vw;
+        margin: auto 10%;
+      }
+      #features ul{
+        list-style: none;
+      
+      }
+      #features li{
+        margin-top: 1em;
+      }
+      #works{
+        margin-top:3em;
+        text-align: center;
+        
+      }
+      #works iframe{
+          max-width: 560px;
+          width: 100%;
+      }
+      #pricing{
+        margin-top: 5em;
+        margin-bottom: 10em;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        text-align: center;
+        
+      }
+      .pricing-box{
+        width: 350px;
+        height: 350px;
+        border:1px solid black;
+      }
+      .pricing-box h1{
+        background-color: #ddd;
+        height: 2em;
+        font-size: 2em;
+      }
+      .pricing-box h2{
+        margin: 1em 0;
+      }
+      .pricing-box ol{
+        list-style: none;
+        
+      }
+      .pricing-box button{
+        width: 100px;
+        height: 2.5em;
+        margin-top: 2em;
+        background-color: rgb(254, 254, 5);
+        border-style: none;
+        font-weight: 400;
+      }
+      .pricing-box button:hover{
+        cursor: pointer;
+        background-color: orange;
+      }
+      footer{
+        background-color: #ddd;
+        width: 80vw;
+        margin: auto 10em auto 10em;
+        position: relative;
+        top: 5em;
+        
+      
+      }
+      footer ul{
+        display: flex;
+        gap: 2em;
+        padding:.5em 1em;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: row;
+      }
+      footer li{
+        list-style: none;
+      
+      }
+      footer a{
+        text-decoration: none;
+        color: #000;
+      }
+      footer p{
+        text-align: right;
+        padding: .5em 1em;
+      }
+  }
