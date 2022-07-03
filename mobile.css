@@ -42,13 +42,14 @@ header{
     /* padding-top: 1em; */
   }
   #nav-bar ul li{
+    color: #000;
     flex-direction: row;
     /* align-items: flex-end; */
     list-style: none;
     
   }
   #nav-bar a{
-    color: #000;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
   .form-div{
